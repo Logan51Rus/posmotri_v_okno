@@ -68,6 +68,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 5px;
 }
 
 .visually-hidden {
@@ -86,14 +87,15 @@ fieldset {
 
 .search-form {
   display: flex;
-  align-items: flex-end;
+  justify-content: flex-start;
   gap: 40px;
+  min-height: 54px;
 }
 
 .search-form__fieldset {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: space-between;
   width: 212px;
   height: 49px;
 }
@@ -176,6 +178,7 @@ button {
 }
 
 .search-form__submit-button {
+  margin-top: 20px;
   width: 194px;
   height: 34px;
 }
